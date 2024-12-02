@@ -1086,6 +1086,7 @@ public:
 		VIEWPORT_VRS_DISABLED,
 		VIEWPORT_VRS_TEXTURE,
 		VIEWPORT_VRS_XR,
+		VIEWPORT_VRS_XR_DYNAMIC,
 		VIEWPORT_VRS_MAX,
 	};
 
@@ -1761,7 +1762,7 @@ public:
 
 #ifndef DISABLE_DEPRECATED
 	// Never actually used, should be removed when we can break compatibility.
-	enum Features {
+	enum Features{
 		FEATURE_SHADERS,
 		FEATURE_MULTITHREADED,
 	};
